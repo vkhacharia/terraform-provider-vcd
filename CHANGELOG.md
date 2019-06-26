@@ -2,6 +2,7 @@
 IMPROVEMENTS:
 
 * Change resource handling to use locking mechanism when resource parallel handling is not supported by vCD. [GH-#255] 
+* Change the vm delete behaviour to not redeploy the vapp - [GH-69](https://github.com/terraform-providers/terraform-provider-vcd/issues/69)
 
 FEATURES:
 
